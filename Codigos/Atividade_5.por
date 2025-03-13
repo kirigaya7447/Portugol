@@ -2,33 +2,21 @@ programa {
 
 funcao inicio() {
 
-cadeia nome
+inteiro n
 
-inteiro anon,anoa,idade
+escreva("Digite um número: ")
 
-escreva("Qual o seu nome: ")
+leia(n)
 
-leia(nome)
+se(n %2 == 0){
 
-escreva("Em que ano você nasceu: ")
-
-leia(anon)
-
-escreva("Qual o ano atual: ")
-
-leia(anoa)
-
-idade = anoa - anon
-
-se(idade >=18){
-
-escreva(nome," sua entrada foi permitida.")
+escreva("O número é par.")
 
 }
 
-senao{
+senao {
 
-escreva(nome, " sua entrada não foi autorizada")
+escreva("O número é ímpar.")
 
 }
 
@@ -40,7 +28,7 @@ escreva(nome, " sua entrada não foi autorizada")
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 147; 
+ * @POSICAO-CURSOR = 175; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

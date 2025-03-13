@@ -2,33 +2,25 @@ programa {
 
 funcao inicio() {
 
-cadeia nome
+real salario, prestacao
 
-inteiro anon,anoa,idade
+escreva("Digite o seu salário: ")
 
-escreva("Qual o seu nome: ")
+leia(salario)
 
-leia(nome)
+escreva("Digite o valor da prestação: ")
 
-escreva("Em que ano você nasceu: ")
+leia(prestacao)
 
-leia(anon)
+se((prestacao)>(salario/5)){
 
-escreva("Qual o ano atual: ")
-
-leia(anoa)
-
-idade = anoa - anon
-
-se(idade >=18){
-
-escreva(nome," sua entrada foi permitida.")
+escreva("Empréstimo não pode ser concedido")
 
 }
 
 senao{
 
-escreva(nome, " sua entrada não foi autorizada")
+escreva("Empréstimo pode ser concedido")
 
 }
 
@@ -40,7 +32,7 @@ escreva(nome, " sua entrada não foi autorizada")
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 147; 
+ * @POSICAO-CURSOR = 301; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

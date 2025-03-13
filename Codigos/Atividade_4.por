@@ -2,35 +2,15 @@ programa {
 
 funcao inicio() {
 
-cadeia nome
+inteiro saldo, ra
 
-inteiro anon,anoa,idade
+escreva("Informe o saldo: ")
 
-escreva("Qual o seu nome: ")
+leia(saldo)
 
-leia(nome)
+ra = saldo*1.01
 
-escreva("Em que ano você nasceu: ")
-
-leia(anon)
-
-escreva("Qual o ano atual: ")
-
-leia(anoa)
-
-idade = anoa - anon
-
-se(idade >=18){
-
-escreva(nome," sua entrada foi permitida.")
-
-}
-
-senao{
-
-escreva(nome, " sua entrada não foi autorizada")
-
-}
+escreva("O saldo reajustado é de: ", ra)
 
 }
 
@@ -40,7 +20,7 @@ escreva(nome, " sua entrada não foi autorizada")
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 147; 
+ * @POSICAO-CURSOR = 38; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
